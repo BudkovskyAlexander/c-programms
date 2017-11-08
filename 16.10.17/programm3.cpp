@@ -53,5 +53,6 @@ int main() {
 		else
 			cout << path[i] + 1;
 	}
+	if (path.size() == 0) cout << "Cycle isn't found";
 	return 0;
 }
